@@ -9,14 +9,11 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.top,.bot{
+.top,footer{
     display: flex;
     justify-content: center;
     background-color: #569C87;
     color: #F7C945;
-}
-.bot{
-    align-content: flex-end;
 }
 .conteneur{
     display: flex;
@@ -24,6 +21,16 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+.m1,.m2,.m3,.m4{
+    box-sizing: content-box;
+    width: 500px;
+    border: solid #5B6DCD 10px;
+    padding: 5px;
+    height: 200px;
+}
 footer {
     position: absolute; bottom: 0; left: 0; right: 0;
+}
+.space{
+    width: 1390px;
 }
