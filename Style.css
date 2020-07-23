@@ -32,12 +32,15 @@ body{
     box-sizing: content-box;
     width: 350px;
     border: solid #5B6DCD 10px;
-    padding: 5px;
+    padding: 0px;
     height: 450px;
     margin-bottom: 50px;
     background-attachment: fixed;
     overflow: auto;
 }
+.menu-img{
+    max-width: 350px;
+    max-height: auto;
 }
 .space{                 /*espace pour le txt pied de page*/ 
     width: 1390px;
