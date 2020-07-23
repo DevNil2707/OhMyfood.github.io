@@ -25,22 +25,20 @@ body{
     justify-content: space-between ;
     flex-wrap: wrap;
     margin-top: 50px;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 .m1,.m2,.m3,.m4{        /* menu*/
     box-sizing: content-box;
     width: 350px;
-    border: solid #5B6DCD 10px;
+    box-shadow: 1px 1px 10px 5px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
     padding: 0px;
     height: 450px;
-    margin-bottom: 50px;
-    background-attachment: fixed;
-    overflow: auto;
+    margin-bottom: 70px;
+    overflow: hidden;
 }
 .menu-img{
     max-width: 350px;
-    max-height: auto;
 }
 .space{                 /*espace pour le txt pied de page*/ 
     width: 1390px;
