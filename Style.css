@@ -9,28 +9,45 @@ body{
     margin: 0px;
     padding: 0px;
 }
+/*pour la tête et le pied de page*/
 .top,footer{
     display: flex;
     justify-content: center;
     background-color: #569C87;
     color: #F7C945;
-}
+    }
+   /* footer{
+        position: fixed; bottom: 0; left: 0; right: 0;
+    }*/
+/*gestion centre de la page avec les 4 menu*/
 .conteneur{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between ;
     flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
 }
-.m1,.m2,.m3,.m4{
+.m1,.m2,.m3,.m4{        /* menu*/
     box-sizing: content-box;
-    width: 500px;
+    width: 350px;
     border: solid #5B6DCD 10px;
     padding: 5px;
-    height: 200px;
+    height: 450px;
+    margin-bottom: 50px;
 }
-footer {
-    position: absolute; bottom: 0; left: 0; right: 0;
+.m1{
+    background-color: #FCDFDA;  
 }
-.space{
+.m2{
+    background-color: #FEF5FD;
+}
+.m3{
+    background-color: #F9F9F9;
+}
+.m4{
+    background-color: #FDFFFD;
+}
+.space{                 /*espace pour le txt pied de page*/ 
     width: 1390px;
 }
