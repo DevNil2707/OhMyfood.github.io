@@ -16,9 +16,6 @@ body{
     background-color: #569C87;
     color: #F7C945;
     }
-   /* footer{
-        position: fixed; bottom: 0; left: 0; right: 0;
-    }*/
 /*gestion centre de la page avec les 4 menu*/
 .conteneur{
     display: flex;
@@ -32,7 +29,7 @@ body{
     box-sizing: content-box;
     width: 350px;
     box-shadow: 1px 1px 10px 5px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-    padding: 0px;
+    padding: 0;
     height: 450px;
     margin-bottom: 70px;
     overflow: hidden;
@@ -42,4 +39,7 @@ body{
 }
 .space{                 /*espace pour le txt pied de page*/ 
     width: 1390px;
+}
+.btn{
+ 
 }
