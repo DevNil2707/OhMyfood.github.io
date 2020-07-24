@@ -21,8 +21,8 @@ body{
     padding: 0px;
 }
 h1{
-    font-weight: 800;
     font-family: "Waukegan";
+    font-size: 3em;
 }
 /*pour la tête et le pied de page*/
 .top,footer{
@@ -37,6 +37,7 @@ footer{
     position: fixed;
     bottom: 0;
     font-family: "kyay";
+    font-size: 1em;
 }
 /*gestion centre de la page avec les 4 menu*/
 .conteneur{
@@ -68,12 +69,13 @@ footer{
 .styled {
     border: 0;
     line-height: 2.5;
-    padding: 6px 80px;
-    font-size: 1rem;
+    padding: 1px 80px;
+    font-size: 1.5rem;
     text-align: center;
     color: #F7C945;;
     border-radius: 10px;
     background-color:#569C87;
     display: block;
     margin: auto;
+    font-family: "kyay"
 }
