@@ -1,16 +1,28 @@
 @font-face{
-    font-family: nastaliq ;
+    font-family: Waukegan ;
+    src: url(fonts/Waukegan\ LDO\ Bold.ttf);
+}
+@font-face{
+    font-family: nastaliq;
     src: url(fonts/nastaliq.ttf);
+}
+@font-face{
+    font-family: kyay;
+    src: url(fonts/Khyay-Regular.ttf);
 }
 /* tête de la page avec nom du site*/
 html{
     height: 100%;
+    
 }
 body{
     min-height: 100%;
     margin: 0px;
     padding: 0px;
-    font-family: "nastaliq";
+}
+h1{
+    font-weight: 800;
+    font-family: "Waukegan";
 }
 /*pour la tête et le pied de page*/
 .top,footer{
@@ -19,10 +31,12 @@ body{
     background-color: #569C87;
     color: #F7C945;
     padding: 8px;
+    width: 100%;
     }
 footer{
     position: fixed;
     bottom: 0;
+    font-family: "kyay";
 }
 /*gestion centre de la page avec les 4 menu*/
 .conteneur{
@@ -49,7 +63,7 @@ footer{
     width: 1350px;  /*espace pour le txt pied de page*/
 }
 .btn{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .styled {
     border: 0;
