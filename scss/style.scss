@@ -13,6 +13,7 @@ $jaune: #F7C945; // jaune du site web
     margin: $margepad;
     padding: $margepad;
 }
+//wiggle effect
 @keyframes shake { 
     10%, 90% { 
     transform: translate3d(-1px, 0, 0); 
@@ -52,7 +53,7 @@ header{
 
 body{
     min-height: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden; //cache la scroll bar du bas
     @include marge-padding(0px);
     .conteneur{
         display: flex;
@@ -139,6 +140,9 @@ footer{
     .space{                
         width: 1350px;  //espace pour le txt pied de page
     }
+
+//------------footer button-------------------
+    
     .button-left{
 
         border: none;
