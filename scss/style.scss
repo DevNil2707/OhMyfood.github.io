@@ -1,17 +1,7 @@
 //fonts utiliser 
-@font-face{
-    font-family: Waukegan ;
-    src: url(fonts/Waukegan\gras.ttf);
-}
-@font-face{
-    font-family: nastaliq;
-    src: url(fonts/nastaliq.ttf);
-}
-@font-face{
-    font-family: kyay;
-    src: url(fonts/Khyay-Regular.ttf);
-}
+
 // -----------Parametre Variable-------------
+
 $full:100%;
 $vert:#569C87; // vert du site web 
 $jaune: #F7C945; // jaune du site web
@@ -36,7 +26,7 @@ header{
         padding: 8px;
         width: $full;
         h1{
-            font-family: "Waukegan";
+            font-family: "waukegan";
             font-size: 3em;
         }
     }   
@@ -67,6 +57,12 @@ body{
         height: 450px;
         margin-bottom: 70px;
         overflow: hidden;
+        opacity:0.2;
+        transition:opacity 2s;
+        -webkit-transition: opacity 2s;
+        &:hover{
+            opacity:1;
+            }
     }
 }
 
@@ -75,6 +71,11 @@ body{
 .m1,.m2,.m3,.m4{
     .menu-img{
         max-width: 350px;
+        transform: scale(1);
+        transition: transform 2s;
+        &:hover{
+            transform: scale(1.15);
+        }
     }
 }
 
@@ -89,11 +90,19 @@ body{
         font-size: 1.5rem;
         text-align: center;
         color: $jaune;
+        cursor: pointer;
         border-radius: 10px;
         background-color: $vert;
         display: block;
         margin: auto;
-        font-family: "kyay"
+        font-family: "kyay";
+        transform: scale(1);
+        transition: transform 400ms;
+        &:hover{
+            transform: scale(1.15);
+        }
+
+
     }
 }
 
