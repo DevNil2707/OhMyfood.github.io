@@ -1,5 +1,9 @@
 //fonts utiliser 
 
+
+//---------------------------------------------------- PAGE1---------------------------------------------------
+
+
 // -----------Parametre Variable-------------
 
 $full:100%;
@@ -13,6 +17,8 @@ $jaune: #F7C945; // jaune du site web
     margin: $margepad;
     padding: $margepad;
 }
+//effet point de suppension
+
 //wiggle effect
 @keyframes shake { 
     10%, 90% { 
@@ -75,16 +81,16 @@ body{
         height: 450px;
         margin-bottom: 70px;
         overflow: hidden;
-        opacity:0.2;
-        transition:opacity 2s;
+        opacity:0.2;  
+        transition:opacity 2s; 
         -webkit-transition: opacity 2s;
-        &:hover{
+        &:hover{      //transition fondu menus au survol de la souri
             opacity:1;
             }
     }
 }
 
-// image de chaque menu
+// image de chaque menus
 
 .m1,.m2,.m3,.m4{
     .menu-img{
@@ -97,7 +103,7 @@ body{
     }
 }
 
-//----------boutton PROCHAINEMENT-----------
+//----------btn PROCHAINEMENT-----------
 
 .btn{
     margin-bottom: 80px;
@@ -114,11 +120,6 @@ body{
         display: block;
         margin: auto;
         font-family: "kyay";
-        transform: scale(1);
-        transition: transform 400ms;
-        &:hover{
-            transform: scale(1.15);
-        }
 
 
     }
@@ -166,5 +167,32 @@ footer{
     }
     .button-right{
         @extend .button-left;
+    }
+}
+
+//---------------------------------------------PAGES MENUS DES RESTAURANTS---------------------------------------
+
+body{
+    margin-bottom: 200px;
+    .p2-h1{
+        text-align: center;
+    }
+
+}
+.restaurant-menu{
+    background-color: #FCDFDA;
+    display: grid;
+    box-sizing: content-box;
+    width: 550px;
+    box-shadow: 1px 1px 10px 5px #ccc; 
+    padding: 45px;
+    height: 600px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    margin: auto;
+}
+table{
+    th{
+        width: 100%;
     }
 }

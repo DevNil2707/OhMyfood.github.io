@@ -87,12 +87,6 @@ body .conteneur {
   display: block;
   margin: auto;
   font-family: "kyay";
-  transform: scale(1);
-  transition: transform 400ms;
-}
-
-.btn .styled:hover {
-  transform: scale(1.15);
 }
 
 footer {
@@ -131,4 +125,29 @@ footer .button-left:hover, footer .button-right:hover {
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;
+}
+
+body {
+  margin-bottom: 200px;
+}
+
+body .p2-h1 {
+  text-align: center;
+}
+
+.restaurant-menu {
+  background-color: #FCDFDA;
+  display: grid;
+  box-sizing: content-box;
+  width: 550px;
+  box-shadow: 1px 1px 10px 5px #ccc;
+  padding: 45px;
+  height: 600px;
+  margin-bottom: 100px;
+  overflow: hidden;
+  margin: auto;
+}
+
+table th {
+  width: 100%;
 }
