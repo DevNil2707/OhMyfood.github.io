@@ -13,6 +13,23 @@ $jaune: #F7C945; // jaune du site web
     margin: $margepad;
     padding: $margepad;
 }
+@keyframes shake { 
+    10%, 90% { 
+    transform: translate3d(-1px, 0, 0); 
+    } 
+
+    20%, 80% { 
+    transform: translate3d(2px, 0, 0); 
+    } 
+
+    30%, 50%, 70% { 
+    transform: translate3d(-4px, 0, 0); 
+    } 
+
+    40%, 60% { 
+    transform: translate3d(4px, 0, 0); 
+    }
+}
 
 // -----------Parametre Variable-------------
 
@@ -122,5 +139,28 @@ footer{
     .space{                
         width: 1350px;  //espace pour le txt pied de page
     }
+    .button-left{
 
+        border: none;
+        background-color: $vert;
+        color: $jaune;
+        padding: 3px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        &:hover { 
+            animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both; 
+            transform: translate3d(0, 0, 0); 
+            backface-visibility: hidden; 
+            perspective: 1000px; 
+        } 
+        
+    }
+    .button-right{
+        @extend .button-left;
+    }
 }
