@@ -174,7 +174,7 @@ footer{
 
 body{
     margin-bottom: 200px;
-    .p2-h1{
+    h1,h2,h3{
         text-align: center;
     }
 
@@ -190,6 +190,18 @@ body{
     margin-bottom: 100px;
     overflow: hidden;
     margin: auto;
+}
+.restaurant-menu-p3{
+    @extend .restaurant-menu;
+    background-color: #FEF5FD;
+}
+.restaurant-menu-p4{
+    @extend .restaurant-menu;
+    background-color: #F9F9F9;
+}
+.restaurant-menu-p5{
+    @extend .restaurant-menu;
+    background-color: #FDFFFD;
 }
 table{
     th{

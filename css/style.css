@@ -131,11 +131,11 @@ body {
   margin-bottom: 200px;
 }
 
-body .p2-h1 {
+body h1, body h2, body h3 {
   text-align: center;
 }
 
-.restaurant-menu {
+.restaurant-menu, .restaurant-menu-p3, .restaurant-menu-p4, .restaurant-menu-p5 {
   background-color: #FCDFDA;
   display: grid;
   box-sizing: content-box;
@@ -146,6 +146,18 @@ body .p2-h1 {
   margin-bottom: 100px;
   overflow: hidden;
   margin: auto;
+}
+
+.restaurant-menu-p3 {
+  background-color: #FEF5FD;
+}
+
+.restaurant-menu-p4 {
+  background-color: #F9F9F9;
+}
+
+.restaurant-menu-p5 {
+  background-color: #FDFFFD;
 }
 
 table th {
