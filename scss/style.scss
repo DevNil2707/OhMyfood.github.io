@@ -1,15 +1,11 @@
 //fonts utiliser 
 @font-face{
-    font-family: Waukegan ;
-    src: url(fonts/Waukegan.ttf);
+  font-family: Waukegan ;
+  src: url(fonts/Waukegan.ttf);
 }
 @font-face{
-    font-family: nastaliq;
-    src: url(fonts/nastaliq.ttf);
-}
-@font-face{
-    font-family: kyay;
-    src: url(fonts/Khyay-Regular.ttf);
+  font-family: kyay;
+  src: url(fonts/Khyay-Regular.ttf);
 }
 //---------------------------------------------------- PAGE1---------------------------------------------------
 
@@ -160,14 +156,14 @@ body{
     font-size: 4vw;
     margin-bottom: 2%;
   }
-  
+  // text du nom du restaurant 
   #menus .row .menu-container div h2 {
     letter-spacing: 1px;
     font-size: 2em;
     margin-top: 4%;
     margin-bottom: 0;
   }
-  
+  // text menu sous le restaurant 
   #menus .row .menu-container div h3 {
     font-size: 4em;
     margin-top: 5%;
@@ -353,52 +349,53 @@ footer{
 //---------------------------------------------PAGES MENUS DES RESTAURANTS---------------------------------------
 
 body{
-    margin-bottom: 200px;
+  margin-bottom: 200px;
     h1,h2,h3{
-        text-align: center;
+      text-align: center;
     }
-    .restaurant-menu{
-        background-color: #FCDFDA;
-        display: grid;
-        box-sizing: content-box;
-        width: 550px;
-        box-shadow: 1px 1px 10px 5px #ccc; 
-        padding: 45px;
-        height: 600px;
-        margin-bottom: 100px;
-        overflow: hidden;
-        margin: auto;
-        .fa-music{
-            justify-content: center;
-        }
+  .restaurant-menu{
+    display: grid;
+    box-sizing: content-box;
+    width: 550px;
+    box-shadow: 1px 1px 10px 5px #ccc; 
+    padding: 45px;
+    height: 600px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    margin: auto;
+    .fa-music{
+      justify-content: center;
     }
-
+  }
+}
+.restaurant-menu{
+  background-color: #FCDFDA;
 }
 .restaurant-menu-p3{
-    @extend .restaurant-menu;
-    background-color: #FEF5FD;
+  @extend .restaurant-menu;
+  background-color: #fff5fe;
 }
 .restaurant-menu-p4{
-    @extend .restaurant-menu;
-    background-color: #F9F9F9;
+  @extend .restaurant-menu;
+  background-color: #F9F9F9 ;
 }
 .restaurant-menu-p5{
-    @extend .restaurant-menu;
-    background-color: #FDFFFD;
+  @extend .restaurant-menu;
+  background-color: #FDFFFD;
 }
 table{
-    th{
-        text-align: inherit;
-        width: 100%;
-        &, &::before, &::after {
-            display:inline-block;
-            vertical-align: middle;
-          }
-          &::before, &::after {
-            height:10px;
-            width:100px;
-            background: orange;
-            content:""
-          }
+  th{
+    text-align: inherit;
+    width: 100%;
+    &, &::before, &::after {
+      display:inline-block;
+      vertical-align: middle;
     }
+    &::before, &::after {
+      height:10px;
+      width:100px;
+      background: orange;
+      content:""
+    }
+  }
 }

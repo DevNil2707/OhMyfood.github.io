@@ -4,11 +4,6 @@
 }
 
 @font-face {
-  font-family: nastaliq;
-  src: url(fonts/nastaliq.ttf);
-}
-
-@font-face {
   font-family: kyay;
   src: url(fonts/Khyay-Regular.ttf);
 }
@@ -327,7 +322,6 @@ body h1, body h2, body h3 {
 }
 
 body .restaurant-menu, body .restaurant-menu-p3, body .restaurant-menu-p4, body .restaurant-menu-p5 {
-  background-color: #FCDFDA;
   display: grid;
   box-sizing: content-box;
   width: 550px;
@@ -343,8 +337,12 @@ body .restaurant-menu .fa-music, body .restaurant-menu-p3 .fa-music, body .resta
   justify-content: center;
 }
 
+.restaurant-menu, .restaurant-menu-p3, .restaurant-menu-p4, .restaurant-menu-p5 {
+  background-color: #FCDFDA;
+}
+
 .restaurant-menu-p3 {
-  background-color: #FEF5FD;
+  background-color: #fff5fe;
 }
 
 .restaurant-menu-p4 {
