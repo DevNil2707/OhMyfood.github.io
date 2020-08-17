@@ -7,6 +7,7 @@
   font-family: kyay;
   src: url(fonts/Khyay-Regular.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
 //---------------------------------------------------- PAGE1---------------------------------------------------
 
 
@@ -353,13 +354,16 @@ body{
     h1,h2,h3{
       text-align: center;
     }
+    .tittle{
+      font-family: 'Hind', sans-serif;
+    }
   .restaurant-menu{
     display: grid;
     box-sizing: content-box;
-    width: 550px;
+    width: 590px;
     box-shadow: 1px 1px 10px 5px #ccc; 
     padding: 45px;
-    height: 600px;
+    height: 690px;
     margin-bottom: 100px;
     overflow: hidden;
     margin: auto;
@@ -367,6 +371,12 @@ body{
       justify-content: center;
     }
   }
+}
+h2{
+  font-size: 3em;
+}
+h3{
+  font-size: 1.5em;
 }
 .restaurant-menu{
   background-color: #FCDFDA;
@@ -387,6 +397,7 @@ table{
   th{
     text-align: inherit;
     width: 100%;
+    font-size: 1.3em;
     &, &::before, &::after {
       display:inline-block;
       vertical-align: middle;

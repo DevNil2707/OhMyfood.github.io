@@ -1,0 +1,24 @@
+/* PARAMETRES */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+
+/*PAGE MENU LES DELICE DES PAPILLES */ 
+
+#fonts-dancing-p4{
+font-family: 'Dancing Script', cursive;
+}
+th{
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+}
+.restaurant-menu-p4{
+    font-family: 'Kalam', cursive;
+}
+h2#fonts-dancing-p4{
+    font-weight: 300;
+    -webkit-text-fill-color: transparent;
+    font-weight: lighter;
+    background: -webkit-linear-gradient(left ,#0936E0, #1D91FA);
+    -webkit-background-clip: text;
+}
+}

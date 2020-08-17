@@ -7,12 +7,41 @@
 
 
 /*     PAGE MENU LA NOTE ENCHANTE     */
+body{
+  color: #3E141A;
+}
+.restaurant-menu{
+  font-family: 'Indie Flower', cursive;
+}
+th{
+  font-family: 'Gochi Hand', cursive;
+}
 .fonts-devon-p2{
-    font-family: 'Devonshire', cursive;
-  }
-  .fonts-gochi-p2{
-    font-family: 'Gochi Hand', cursive;
-  }
-  body{
-    font-family: 'Indie Flower', cursive;
-  }
+  font-family: 'Devonshire', cursive;
+  margin-top: 0em;
+}
+p.icon-fa{
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 0em;
+  background: -webkit-linear-gradient(0deg, #f66a6a, #e76c25);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+}
+#fa-music{
+  background: -webkit-linear-gradient(0deg, #f66a6a, #e76c25);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 1.5em;
+}

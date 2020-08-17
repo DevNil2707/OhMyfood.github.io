@@ -1,0 +1,19 @@
+/* PARAMETRES  */
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+/* PAGE 3 MENU CHIC A LA FFRANCAISE  */ 
+th{
+    font-family: 'Merriweather', serif;
+}
+.restaurant-menu-p3{
+    font-family: 'Merriweather', serif;
+}
+#fonts-croiss-p3{
+    font-family: 'Croissant One', cursive;
+    -webkit-text-fill-color: transparent;
+    font-weight: 100;
+    background: -webkit-linear-gradient(300deg,#E38913, #8F5BFE);
+    -webkit-background-clip: text;
+}

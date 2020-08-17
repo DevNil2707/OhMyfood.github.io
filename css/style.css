@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap");
 @font-face {
   font-family: Waukegan;
   src: url(fonts/Waukegan.ttf);
@@ -321,13 +322,17 @@ body h1, body h2, body h3 {
   text-align: center;
 }
 
+body .tittle {
+  font-family: 'Hind', sans-serif;
+}
+
 body .restaurant-menu, body .restaurant-menu-p3, body .restaurant-menu-p4, body .restaurant-menu-p5 {
   display: grid;
   box-sizing: content-box;
-  width: 550px;
+  width: 590px;
   box-shadow: 1px 1px 10px 5px #ccc;
   padding: 45px;
-  height: 600px;
+  height: 690px;
   margin-bottom: 100px;
   overflow: hidden;
   margin: auto;
@@ -335,6 +340,14 @@ body .restaurant-menu, body .restaurant-menu-p3, body .restaurant-menu-p4, body 
 
 body .restaurant-menu .fa-music, body .restaurant-menu-p3 .fa-music, body .restaurant-menu-p4 .fa-music, body .restaurant-menu-p5 .fa-music {
   justify-content: center;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1.5em;
 }
 
 .restaurant-menu, .restaurant-menu-p3, .restaurant-menu-p4, .restaurant-menu-p5 {
@@ -356,6 +369,7 @@ body .restaurant-menu .fa-music, body .restaurant-menu-p3 .fa-music, body .resta
 table th {
   text-align: inherit;
   width: 100%;
+  font-size: 1.3em;
 }
 
 table th, table th::before, table th::after {

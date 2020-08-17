@@ -1,0 +1,23 @@
+/* PARAMETRE */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+
+/* PAGE MENU LA PALETTE DU GOUT */
+
+#fonts-kaush_p5{
+    font-family: 'Kaushan Script', cursive;
+}
+th{
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+}
+.restaurant-menu-p5{
+    font-family: 'Kalam', cursive;
+}
+h2#fonts-kaush_p5{
+    font-weight: 300;
+    -webkit-text-fill-color: transparent;
+    font-weight: lighter;
+    background: -webkit-linear-gradient(left,#3D9339, #BFFF7E);
+    -webkit-background-clip: text;
+}
